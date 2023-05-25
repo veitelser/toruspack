@@ -25,7 +25,7 @@ num:        (int) number of spheres
 size:       (double) width of torus
 beta:       (double) RRR time-step
 gam:        (double) RRR metric-update parameter
-monostep:   (int) error monotonicity parameter
+monostep:   (int) error monotonicity parameter m, m=0 is interpreted as infinity
 itermax:    (int) maximum number of RRR iterations per trial
 errstride:  (int) number of iterations between printing output
 errstop:    (double) stop iterations when error falls below this
